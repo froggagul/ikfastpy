@@ -126,8 +126,8 @@
 
   <Body name="link6" type="dynamic">
     <offsetfrom>link5</offsetfrom>
-    <translation>0 0.0823 0</translation> <!-- end effector offset can be added here -->
-    <rotationaxis>-1 0 0 90</rotationaxis>
+    <translation>0 0 0</translation> <!-- end effector offset can be added here -->
+    <rotationaxis>0 0 -1 90</rotationaxis>
     <Geom type="box">
       <translation>0 0 0</translation>
       <Extents>0.01 0.01 0.01</Extents>
