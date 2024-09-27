@@ -59,7 +59,7 @@ This implementation requires the following dependencies (tested on Ubuntu 16.04.
 
 1. Use OpenRave to re-generate the IKFast C++ code `ikfast61.cpp`. 
     ```shell
-    python `openrave-config --python-dir`/openravepy/_openravepy_/ikfast.py --robot=ur5.robot.xml --iktype=transform6d --baselink=0 --eelink=6 --savefile=ikfast61.cpp --maxcasedepth 1
+    python `openrave-config --python-dir`/openravepy/_openravepy_/ikfast.py --robot=ur5.robot.xml --iktype=transform6d --baselink=0 --eelink=6 --savefile=ikfast61.cpp --maxcasedepth 3
     ```
 
 ## Citation
